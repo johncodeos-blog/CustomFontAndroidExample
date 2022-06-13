@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:gravity="center"
     android:background="@color/colorPrimaryDark"
+    android:gravity="center"
     tools:context=".MainActivity">
 
 
     <TextView
-        android:id="@+id/myTextView"
+        android:id="@+id/my_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
+        android:text="Text"
         android:textColor="@android:color/white"
-        app:fontFamily="@font/bebas_neue_font_family"
         android:textFontWeight="900"
-        android:text="Text"/>
+        android:textSize="50sp"
+        app:fontFamily="@font/bebas_neue_font_family" />
 
 </RelativeLayout>
